@@ -1,0 +1,10 @@
+{
+  "label": "Terms",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Terms"
+  },
+  "collapsible": true,
+  "collapsed": true
+}

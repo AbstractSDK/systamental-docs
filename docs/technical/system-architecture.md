@@ -4,8 +4,13 @@ title: System Architecture
 description: High-level overview of Abstract Money's system architecture
 ---
 
+import Term from "@lunaticmuch/docusaurus-terminology/components/tooltip.js";
+
+
 # System Architecture
 
 This document provides a high-level overview of Abstract Money's system architecture, explaining how the various components interact to deliver our investment platform.
 
 ## Architecture Overview
+
+<Term popup="A service that provides external data to smart contracts" reference="/systamental-docs/docs/terms/oracle">Oracle</Term>

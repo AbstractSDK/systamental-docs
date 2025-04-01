@@ -1,6 +1,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkDefList from 'remark-deflist';
+
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -42,6 +44,9 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [
+            remarkDefList,
+          ]
         },
         blog: {
           showReadingTime: true,
@@ -57,6 +62,9 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          remarkPlugins: [
+            remarkDefList,
+          ]
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -130,6 +138,10 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'Website',
+              href: 'https://abstract.money',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/AbstractSDK',
             },
@@ -143,6 +155,10 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    '@lunaticmuch/docusaurus-terminology'
+  ]
 };
 
 export default config;
