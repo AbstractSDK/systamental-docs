@@ -14,8 +14,8 @@ Our platform bridges the gap between traditional finance and on-chain offerings,
 
 We provide access to:
 
-- [**Institutional-grade investment products**](./streams) – Allocate to strategies that generate positive, uncorrelated, and composable returns.
-- [**Tokenized funds**](./vaults) – Use our tokenized vault infrastructure to convert signals, systematic strategies, and risk exposures into tradable assets.
+- [**Institutional-grade investment products**](./category/investor-guide) – Allocate to strategies that generate positive, uncorrelated, and composable returns.
+- [**Tokenized funds**](./education/tokenized-funds) – Use our tokenized vault infrastructure to convert signals, systematic strategies, and risk exposures into tradable assets.
 - **Portfolio construction and analysis** – Build more optimal portfolios and understand their underlying risk factor exposures.
 - **Data and dashboards** – Monitor crypto market drivers with proprietary data and real-time analytics.
 
