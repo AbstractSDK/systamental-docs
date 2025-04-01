@@ -77,9 +77,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'documentationSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -96,8 +96,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Introduction',
+              to: '/docs/introduction',
             },
           ],
         },
@@ -115,6 +115,10 @@ const config: Config = {
             {
               label: 'X',
               href: 'https://x.com/AbstractSDK',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/company/abstract-money',
             },
           ],
         },
