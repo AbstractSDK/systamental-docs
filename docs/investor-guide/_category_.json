@@ -1,0 +1,10 @@
+{
+  "label": "Investor Guide",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything you need to know to get started with Abstract Money as an investor or allocator."
+  },
+  "collapsible": true,
+  "collapsed": false
+}
