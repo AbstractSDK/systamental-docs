@@ -3,11 +3,48 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+# Cancel in-progress workflows when a new workflow is triggered
+concurrency:
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: true
+
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 jobs:
+  notion:
+    name: Pull from Notion
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed for auto-commit
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Pull from Notion
+        env:
+          DOCU_NOTION_INTEGRATION_TOKEN: ${{ secrets.DOCU_NOTION_INTEGRATION_TOKEN }}
+          DOCU_NOTION_ROOT_PAGE: ${{ secrets.DOCU_NOTION_ROOT_PAGE }}
+        run: pnpm pull-notion
+      - name: Commit Notion changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply changes from docu-notion
   build:
     name: Build Docusaurus
+    needs: notion
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
