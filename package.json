@@ -17,7 +17,8 @@
     "parse-terms": "docusaurus parse",
     "pull": "npm run pull:with-env || npm run pull:without-env",
     "pull:with-env": "dotenv -- cross-var \"docu-notion --require-slugs -n $DOCU_NOTION_INTEGRATION_TOKEN -r $DOCU_NOTION_ROOT_PAGE\"",
-    "pull:without-env": "cross-var \"docu-notion --require-slugs -n $DOCU_NOTION_INTEGRATION_TOKEN -r $DOCU_NOTION_ROOT_PAGE\""
+    "pull:without-env": "cross-var \"docu-notion --require-slugs -n $DOCU_NOTION_INTEGRATION_TOKEN -r $DOCU_NOTION_ROOT_PAGE\"",
+    "docu-notion": "docu-notion"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
@@ -25,7 +26,7 @@
     "@easyops-cn/docusaurus-search-local": "^0.49.2",
     "@lunaticmuch/docusaurus-terminology": "^1.5.0",
     "@mdx-js/react": "^3.0.0",
-    "@sillsdev/docu-notion": "^0.16.1",
+    "@abstract-money/docu-notion": "^0.17.17",
     "react-gif-player": "^0.4.2",
     "react-player": "^2.10.1",
     "clsx": "^2.0.0",

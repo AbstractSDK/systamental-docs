@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@abstract-money/docu-notion':
+    specifier: ^0.17.17
+    version: 0.17.17(@types/node@22.13.17)(typescript@5.6.2)
   '@docusaurus/core':
     specifier: 3.7.0
     version: 3.7.0(@mdx-js/react@3.0.0)(acorn@8.14.1)(debug@4.4.0)(react-dom@19.0.0)(react@19.0.0)(typescript@5.6.2)
@@ -16,9 +19,6 @@ dependencies:
   '@mdx-js/react':
     specifier: ^3.0.0
     version: 3.0.0(@types/react@19.0.12)(react@19.0.0)
-  '@sillsdev/docu-notion':
-    specifier: ^0.16.1
-    version: 0.16.1(@types/node@22.13.17)(typescript@5.6.2)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -62,6 +62,34 @@ devDependencies:
     version: 5.6.2
 
 packages:
+
+  /@abstract-money/docu-notion@0.17.17(@types/node@22.13.17)(typescript@5.6.2):
+    resolution: {integrity: sha512-1+vYVDbtaDdr7q9pbLsmqgrsPjDR3RXv8vQ7WMzxKu2wVq50Ugq6xMZ/8bYqJtI1p+pDsn7WNdLKoA/8dtKwJA==}
+    hasBin: true
+    dependencies:
+      '@notionhq/client': 2.2.3
+      axios: 1.8.4
+      chalk: 4.1.2
+      commander: 9.5.0
+      cosmiconfig: 8.3.6(typescript@5.6.2)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@22.13.17)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.6.2)
+      file-type: 16.5.3
+      fs-extra: 10.1.0
+      limiter: 2.1.0
+      markdown-table: 2.0.0
+      notion-client: 4.19.8
+      notion-to-md: 3.1.1
+      path: 0.12.7
+      sanitize-filename: 1.6.3
+      ts-node: 10.9.2(@types/node@22.13.17)(typescript@5.6.2)
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - debug
+      - encoding
+      - typescript
+    dev: false
 
   /@algolia/autocomplete-core@1.17.9(@algolia/client-search@5.23.1)(algoliasearch@5.23.1)(search-insights@2.17.3):
     resolution: {integrity: sha512-O7BxrpLDPJWWHv/DLA9DRFWs+iY1uOJZkqUwjS5HSZAGcl0hIVCQ97LTLewiZmZ402JYUrun+8NqFP+hCknlbQ==}
@@ -3556,34 +3584,6 @@ packages:
 
   /@sideway/pinpoint@2.0.0:
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
-
-  /@sillsdev/docu-notion@0.16.1(@types/node@22.13.17)(typescript@5.6.2):
-    resolution: {integrity: sha512-7gdtwZT+eTAzEzBqFOyHCim7lH4sw6J41JX8Rr9zhJo9u7x02OEHv0ndFUd7dbWX1nJ2d/64ffzlZZlRJJn8tQ==}
-    hasBin: true
-    dependencies:
-      '@notionhq/client': 2.2.3
-      axios: 1.8.4
-      chalk: 4.1.2
-      commander: 9.5.0
-      cosmiconfig: 8.3.6(typescript@5.6.2)
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@22.13.17)(cosmiconfig@8.3.6)(ts-node@10.9.2)(typescript@5.6.2)
-      file-type: 16.5.3
-      fs-extra: 10.1.0
-      limiter: 2.1.0
-      markdown-table: 2.0.0
-      notion-client: 4.19.8
-      notion-to-md: 3.1.1
-      path: 0.12.7
-      sanitize-filename: 1.6.3
-      ts-node: 10.9.2(@types/node@22.13.17)(typescript@5.6.2)
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - debug
-      - encoding
-      - typescript
-    dev: false
 
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
