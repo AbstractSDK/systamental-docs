@@ -15,8 +15,8 @@
     "typecheck": "tsc",
     "glossary": "docusaurus glossary",
     "parse-terms": "docusaurus parse",
-    "pull-notion": "npm run pull:with-env || npm run pull:without-env",
-    "pull-notion:with-env": "dotenv -- cross-var docu-notion --require-slugs -n %DOCU_NOTION_INTEGRATION_TOKEN% -r %DOCU_NOTION_ROOT_PAGE% 1>&1",
+    "pull-notion": "pnpm run pull-notion:with-env || pnpm run pull-notion:without-env",
+    "pull-notion:with-env": "dotenv -- cross-var docu-notion --require-slugs -n %DOCU_NOTION_INTEGRATION_TOKEN% -r %DOCU_NOTION_ROOT_PAGE%",
     "pull-notion:without-env": "cross-var docu-notion --require-slugs -n %DOCU_NOTION_INTEGRATION_TOKEN% -r %DOCU_NOTION_ROOT_PAGE%",
     "docu-notion": "docu-notion"
   },
