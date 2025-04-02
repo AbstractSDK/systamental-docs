@@ -1,6 +1,8 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator, and [DocuNotion](https://github.com/AbstractSDK/docu-notion). The link to the importer can be found [here](https://www.notion.so/abstract-money/Docusaurus-Importer-1c946a0cd0c3807ca596f215527f26c3?pvs=4). Instructions for adding documents to this repository through Notion are documented there.
+
+**Important Note:** DocuNotion will delete all markdown documents in the `docs` directory that are not coming from Notion. If you want to write a markdown document, make sure that you use the MDX extension. All of the docs are located in the `./docs` folder. Images should be co-located with the docs themselves.
 
 ### Installation
 
@@ -26,18 +28,14 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
+We are using GitHub Pages, and the workflows for GitHub Pages will automatically deploy the site once your PRs are merged.
+
+### Pulling from Notion
 
 ```
-$ USE_SSH=true pnpm deploy
+$ pnpm pull-notion
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> pnpm deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This command will pull the latest changes from the Notion database for the docs and commit them to this repository. Please note that you will need to have defined the `DOCU_NOTION_INTEGRATION_TOKEN` and the `DOCU_NOTION_ROOT_PAGE`.
 
 ## Term
