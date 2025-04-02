@@ -1,13 +1,9 @@
-name: Deploy to GitHub Pages
+name: PR Validation
 on:
-  push:
+  pull_request:
     branches:
       - main
   workflow_dispatch:
-
-concurrency:
-  group: "pages-${{ github.ref }}"
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -29,21 +25,9 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build website
         run: pnpm build
-      - name: Upload Build Artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload Build Artifact (for inspection only)
+        uses: actions/upload-artifact@v3
         with:
+          name: docusaurus-build
           path: build
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          retention-days: 7

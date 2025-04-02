@@ -1,0 +1,60 @@
+name: Notion Webhook
+on:
+  repository_dispatch:
+    types: [notion-update]
+  workflow_dispatch:
+
+jobs:
+  notion-pull:
+    name: Pull from Notion and Create PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Pull from Notion
+        env:
+          DOCU_NOTION_INTEGRATION_TOKEN: ${{ secrets.DOCU_NOTION_INTEGRATION_TOKEN }}
+          DOCU_NOTION_ROOT_PAGE: ${{ secrets.DOCU_NOTION_ROOT_PAGE }}
+        run: pnpm pull-notion
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --exit-code || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Create PR Branch
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          BRANCH_NAME="notion-update-$(date +%Y%m%d-%H%M%S)"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git checkout -b $BRANCH_NAME
+          git add .
+          git commit -m "Update content from Notion"
+          git push origin $BRANCH_NAME
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+        id: branch
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update content from Notion
+          title: "Notion content update"
+          body: "This PR contains updates from Notion that were triggered by a webhook."
+          branch: ${{ steps.branch.outputs.branch_name }}
+          base: main
