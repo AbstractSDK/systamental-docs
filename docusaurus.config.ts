@@ -34,6 +34,21 @@ const config: Config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // language: ["en", "fr"],
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: "/",
+      },
+    ]
+  ],
+
   presets: [
     [
       'classic',
@@ -67,7 +82,10 @@ const config: Config = {
           ]
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            require.resolve("./css/docu-notion-styles.css"),
+            './src/css/custom.css'
+          ],
         },
       } satisfies Preset.Options,
     ],
