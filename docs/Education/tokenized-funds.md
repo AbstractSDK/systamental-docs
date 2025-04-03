@@ -2,6 +2,7 @@
 title: Tokenized Funds - The Next Evolution of Fund Management
 sidebar_position: 2
 slug: /tokenized-funds
+keywords: [funds, vaults, 4626, Ethereum, tokenization]
 ---
 
 
