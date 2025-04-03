@@ -1,7 +1,7 @@
 ---
 title: Portfolio Construction 101- Principles for  Building More Efficient Portfolios
 sidebar_position: 0
-slug: /portfolio-construction
+slug: /education-portfolio-construction
 ---
 
 
@@ -53,13 +53,13 @@ Portfolio return = _cash + betas + factors + alphas_
 These return sources are shown below in the Alpha-Beta pyramid. 
 
 
-![](./portfolio-construction.1bd46a0c-d0c3-802c-b7e9-d6c95ad69e4a.png)
+![](./education-portfolio-construction.1bd46a0c-d0c3-802c-b7e9-d6c95ad69e4a.png)
 
 
 What makes these return streams distinct from each other can be better understood by comparing them across key characteristics: capacity, access, complexity, cost and quality, which is summarized below in the Alpha-Beta continuum.
 
 
-![](./portfolio-construction.1bc46a0c-d0c3-8084-9a27-f30fee1b684e.png)
+![](./education-portfolio-construction.1bc46a0c-d0c3-8084-9a27-f30fee1b684e.png)
 
 - Betas have high capacity to absorb huge pools of capital and are positive-sum (all investors can make money with them), are easily accessible (wide range of investment products), simple to implement (e.g. market-cap weighted),  are cheap (low management fee), and outperform cash but have low risk-adjusted returns. For example, U.S. Treasuries are some of the most deep and liquid asset markets in the world estimated at and investors can use ETFs like TLT to gain exposure to them.
 - Factors have lower capacity than traditional betas but are also positive-sum (most investors can make money with them),  are somewhat less accessible than betas (a more limited range of investment products mostly available to institutional investors), require more sophisticated algorithms and derivatives (futures/swaps) to implement well (e.g. factor construction), are slightly more expensive than betas (higher management fee and/or performance fee), and typically have higher risk-adjusted than betas. For example, Blackrock has an equity momentum ETF (MOM) which is implemented as a long-only factor strategy accessible to all investors with most long/short momentum strategies offered by hedge funds or investment banks to accredited investors (e.g. AQR, Goldman Sachs).
