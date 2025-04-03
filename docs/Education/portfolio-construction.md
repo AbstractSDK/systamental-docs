@@ -1,6 +1,6 @@
 ---
 title: Portfolio Construction 101- Principles for  Building More Efficient Portfolios
-sidebar_position: 0
+sidebar_position: 1
 slug: /portfolio-construction
 ---
 

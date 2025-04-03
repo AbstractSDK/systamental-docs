@@ -24,7 +24,7 @@ Our platform bridges the gap between traditional finance and on-chain offerings,
 We provide access to:
 
 - [**Institutional-grade investment products**](./category/investor-guide) – Allocate to strategies that generate positive, uncorrelated, and composable returns.
-- [Tokenized Funds](/tokenized-funds) – Use our tokenized vault infrastructure to convert signals, systematic strategies, and risk exposures into tradable assets.
+- [**Tokenized Funds**](./tokenized-funds) – Use our tokenized vault infrastructure to convert signals, systematic strategies, and risk exposures into tradable assets.
 - **Portfolio construction and analysis** – Build more optimal portfolios and understand their underlying risk factor exposures.
 - **Data and dashboards** – Monitor crypto market drivers with proprietary data and real-time analytics.
 
@@ -34,7 +34,7 @@ We provide access to:
 This documentation is organized to serve different audiences:
 
 - **Investors & Allocators**: If you're looking to invest or allocate assets, start with our [Investor Guide](./category/investor-guide)
-- **Researchers**: For deep dives into investment theory, check our **[Problem Internal Link]**
+- **Researchers**: For deep dives into investment theory, check our [Education & Research Hub](./Education)
 - **Developers & Integrators**: For technical details, visit our [Technical Documentation](./category/technical-documentation)
 - **Community Members**: To get involved, see our [Community](./community)
 
