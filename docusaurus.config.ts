@@ -7,15 +7,15 @@ import remarkDefList from 'remark-deflist';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Abstract Money',
+  title: 'Factor Assets',
   tagline: 'Digital Asset Management Platorm',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://abstractsdk.github.io',
+  url: 'https://docs.factorassets.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/systamental-docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
