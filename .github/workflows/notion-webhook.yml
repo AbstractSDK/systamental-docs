@@ -3,6 +3,17 @@ on:
   repository_dispatch:
     types: [notion-update]
   workflow_dispatch:
+    inputs:
+      pr_title:
+        description: 'Pull Request Title'
+        default: 'Notion content update'
+        required: false
+        type: string
+      pr_body:
+        description: 'Pull Request Description'
+        default: 'This PR contains updates from Notion that were triggered by a webhook.'
+        required: false
+        type: string
 
 # Required permissions for creating PRs with GitHub CLI
 permissions:
@@ -28,6 +39,38 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Set PR variables
+        id: pr_vars
+        run: |
+          # Set default values
+          PR_TITLE="Notion content update"
+          PR_BODY="This PR contains updates from Notion that were triggered by a webhook."
+          
+          # Override with workflow_dispatch inputs if available
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            if [ ! -z "${{ inputs.pr_title }}" ]; then
+              PR_TITLE="${{ inputs.pr_title }}"
+            fi
+            if [ ! -z "${{ inputs.pr_body }}" ]; then
+              PR_BODY="${{ inputs.pr_body }}"
+            fi
+          fi
+          
+          # Override with repository_dispatch client_payload if available
+          if [ "${{ github.event_name }}" == "repository_dispatch" ]; then
+            if [ ! -z "${{ github.event.client_payload.pr_title }}" ]; then
+              PR_TITLE="${{ github.event.client_payload.pr_title }}"
+            fi
+            if [ ! -z "${{ github.event.client_payload.pr_body }}" ]; then
+              PR_BODY="${{ github.event.client_payload.pr_body }}"
+            fi
+          fi
+          
+          # Set output variables (escaping newlines for multi-line body)
+          echo "title=$PR_TITLE" >> $GITHUB_OUTPUT
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "$PR_BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       - name: Pull from Notion
         env:
           DOCU_NOTION_INTEGRATION_TOKEN: ${{ secrets.DOCU_NOTION_INTEGRATION_TOKEN }}
@@ -55,8 +98,8 @@ jobs:
           
           # Create PR using GitHub CLI
           gh pr create \
-            --title "Notion content update" \
-            --body "This PR contains updates from Notion that were triggered by a webhook." \
+            --title "${{ steps.pr_vars.outputs.title }}" \
+            --body "${{ steps.pr_vars.outputs.body }}" \
             --base main \
             --head $BRANCH_NAME
         env:
