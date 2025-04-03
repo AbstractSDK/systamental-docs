@@ -1,6 +1,6 @@
 ---
 title: Tokenized Funds - The Next Evolution of Fund Management
-sidebar_position: 1
+sidebar_position: 2
 slug: /tokenized-funds
 ---
 
