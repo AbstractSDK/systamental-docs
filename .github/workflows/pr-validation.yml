@@ -26,7 +26,7 @@ jobs:
       - name: Build website
         run: pnpm build
       - name: Upload Build Artifact (for inspection only)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: docusaurus-build
           path: build
