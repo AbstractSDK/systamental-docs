@@ -31,7 +31,7 @@ At the heart of portfolio construction lies the fundamental trade-off between re
 ratio. 
 
 
-{ insert scatter plot of asset class return vs. risk}
+( insert scatter plot of asset class return vs. risk)
 
 
 ## Sources of Return: the Alpha-Beta Spectrum {#1b946a0cd0c380968070eba94b8b3112}
@@ -92,7 +92,7 @@ To illustrate how to use these portfolio construction principles, we start with 
 To illustrate the power of portfolio construction, we compare the historical performance of our simple 3 asset class portfolio to buying and holding bitcoin over the same period. 
 
 
-### { insert BTC vs. All Seasons line chart} {#ecd7670b4d954cd09ad1afa3e5e24017}
+### ( insert BTC vs. All Seasons line chart) {#ecd7670b4d954cd09ad1afa3e5e24017}
 
 
 This illustrative example shows how performance can be improved without any skill in asset selection or market timing, but rather with the simple application of powerful portfolio construction principles.
