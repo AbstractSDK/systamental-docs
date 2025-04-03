@@ -3,6 +3,12 @@ on:
   repository_dispatch:
     types: [notion-update]
   workflow_dispatch:
+
+# Required permissions for creating PRs with GitHub CLI
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   notion-pull:
     name: Pull from Notion and Create PR
@@ -32,26 +38,26 @@ jobs:
         run: |
           git add -A
           git diff --staged --exit-code && echo "has_changes=false" >> $GITHUB_OUTPUT || echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "Current changes:"
           git status
-      - name: Create PR Branch
+      - name: Create Branch and PR
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          BRANCH_NAME="notion-update-$(date +%Y%m%d-%H%M%S)"
+          # Configure git
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          
+          # Create and push branch
+          BRANCH_NAME="notion-update-$(date +%Y%m%d-%H%M%S)"
           git checkout -b $BRANCH_NAME
-          # Files already staged from previous step
           git commit -m "Update content from Notion"
           git push origin $BRANCH_NAME
-          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
-        id: branch
-      - name: Create Pull Request
-        if: steps.changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update content from Notion
-          title: "Notion content update"
-          body: "This PR contains updates from Notion that were triggered by a webhook."
-          branch: ${{ steps.branch.outputs.branch_name }}
-          base: main
+          
+          # Create PR using GitHub CLI
+          gh pr create \
+            --title "Notion content update" \
+            --body "This PR contains updates from Notion that were triggered by a webhook." \
+            --base main \
+            --head $BRANCH_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
