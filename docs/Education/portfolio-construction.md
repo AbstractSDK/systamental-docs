@@ -33,28 +33,6 @@ To illustrate this, we will walk through the principles of portfolio constructio
 Over the past five years, digital assets have been the riskiest asset class, with the highest annualized volatility and drawdowns. However, investors have been well compensated for those risks with annual returns also much higher than traditional assets. **The goal of any investors should be to construct a portfolio that achieves the highest return per unit of risk, often measured with risk-adjusted return ratios like Sharpe or Calmar ratio.**
 
 
-## **Sources of Return: the Alpha-Beta Spectrum** {#8df333de14f44802bf35730bab67bd32}
-
-
-Most of the world’s top institutional investors understand the importance of combining multiple return streams that have a positive expected return but are diversifying (have low correlations). This mathematical principle of portfolio construction has been dubbed the "Holy Grail of Investing" by Ray Dalio [[1]](https://youtu.be/Nu4lHaSh7D4?si=Y1_prPA4q4cpUybS). It shows how by adding uncorrelated return streams to a portfolio, you can reduce risk without reducing returns, thereby increasing the return/risk ratio. This portfolio construction principle is the foundation for Bridgewater’s All Weather approach, which looks to diversify across asset classes like equities, bonds, commodities, and inflation-linked securities [[2]](https://www.bridgewater.com/_document/the-all-weather-story?id=00000171-8623-d7de-affd-feaf4ee20000). AQR extends this concept through factor investing — targeting distinct return drivers such as value, momentum, carry, and defensive strategies to improve diversification beyond traditional asset classes [[3]](https://www.aqr.com/Insights/Research/White-Papers/Time-to-Diversify-but-into-what). Blackrock also emphasizes diversification as a core tenet of good portfolio construction and central to their line of investment products [[4]](https://www.blackrock.com/americas-offshore/en/education/portfolio-construction/diversifying-investments).
-
-
-While there may be thousands of investment products (e.g. hedge funds, ETFs, index funds, etc) which package bundles of assets and strategies, their performance can be broken down into 4 distinct return sources:
-
-
-**Portfolio return = cash + betas + factors + alphas**
-
-- **Cash**: the return earned by buying and holding the risk-free interest rate, or the yield on short-term government debt (e.g. U.S. T-bills).
-- **Betas**: aka traditional betas, risk premia or asset class premia, earn an excess return above the risk-free rate by buying and holding riskier assets, e.g. longer maturity government bonds, corporate bonds, equities, REITs, etc. Betas are often earned by passively investing in a broad asset class, such as equities, bonds, commodities and real estate, aka asset class premia.
-- **Factors**: aka smart betas, alternative risk premia/beta, factor premia, or style premia, earn an excess return above the risk-free rate with long-short rules-based strategies which use quantifiable characteristics or “factors” to provide sources of systematic risk and return.
-- **Alphas**: aka idiosyncratic returns, earn an excess return above both the risk-free rate through active investment strategies that exploit inefficiencies, mispricings, or informational advantages in the market, typically requiring deep knowledge, specialized skill, proprietary models, or superior execution.
-
-These return sources are shown below in the **Alpha-Beta pyramid**.
-
-
-![](./portfolio-construction.1d246a0c-d0c3-804c-835b-fedce752d2f7.png)
-
-
 ## Sources of Return: the Alpha-Beta Spectrum {#1b946a0cd0c380968070eba94b8b3112}
 
 
@@ -107,10 +85,10 @@ Lastly, before constructing a portfolio, it is crucial to know an investor’s r
 ## The Diversification Problem: Crypto Provides Few Opportunities for Diversification {#869430a1f9214cbab47f00b8cc910807}
 
 
-One of the biggest challenges for crypto investors is the lack of potential diversification offered within the asset class. This means that a large basket/portfolio of cryptoassets is much more concentrated in risk than the equivalent in other asset classes. Said differently, the opportunity for an investor to diversify well within cryptoassets is severely constrained.
+One of the biggest challenges for crypto investors is the lack of potential diversification offered within the asset class. This means that a large basket/portfolio of cryptoassets is much more concentrated in risk than the equivalent in other asset classes. Said differently, the opportunity for an investor to diversify well within crypto assets is severely constrained.
 
 
-One way to tackle this lack of diversification is to broaden the asset universe to include traditional assets. Correlations to other asset classes like commodities and bonds tend to be much lower which can improve risk-adjsuted returns. This diversification benefit has been one of the main drivers behind rising allocations to crypto as an asset class [[10]](https://www.blackrock.com/us/individual/literature/whitepaper/bitcoin-a-unique-diversifier.pdf).
+One way to tackle this lack of diversification is to broaden the asset universe to include traditional assets. Correlations to other asset classes like commodities and bonds tend to be much lower which can improve risk-adjusted returns. This diversification benefit has been one of the main drivers behind rising allocations to crypto as an asset class [[10]](https://www.blackrock.com/us/individual/literature/whitepaper/bitcoin-a-unique-diversifier.pdf).
 
 
 ![](./portfolio-construction.1d246a0c-d0c3-8052-b590-d41dbc52faf3.png)

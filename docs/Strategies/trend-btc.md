@@ -7,7 +7,7 @@ keywords: [trend following]
 
 
 
-# Description {#1d146a0cd0c38035a6a5cccb895e8d26}
+# TrendBTC {#1d146a0cd0c38035a6a5cccb895e8d26}
 
 
 Trend strategies exploit the persistence of trends in asset prices by going long assets whose prices have been rising and short assets whose prices have been falling.
