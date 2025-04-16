@@ -55,7 +55,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
+          routeBasePath: '/',
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AbstractSDK/systamental-docs/tree/main/',
@@ -69,7 +69,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AbstractSDK/systamental-docs/tree/main/',
@@ -123,7 +122,7 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/introduction',
+              to: '/introduction',
             },
           ],
         },
@@ -175,7 +174,7 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   plugins: [
-    '@lunaticmuch/docusaurus-terminology'
+    // '@lunaticmuch/docusaurus-terminology'
   ]
 };
 

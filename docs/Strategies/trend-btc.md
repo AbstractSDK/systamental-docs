@@ -104,8 +104,5 @@ To deposit in this strategy, go to our vault.
 ### Tokenized Funds
 
 
-To learn more about tokenized funds, see:
-
-
-[Tokenized Funds - The Next Evolution of Fund Management](/tokenized-funds)
+To learn more about tokenized funds, read [Tokenized Funds - The Next Evolution of Fund Management](/tokenized-funds).
 
