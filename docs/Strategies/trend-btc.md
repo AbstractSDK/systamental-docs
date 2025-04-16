@@ -83,25 +83,25 @@ TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance 
 ## More Information
 
 
-### **Strategist**
+### Strategist
 
 
 Internal team
 
 
-### **Trend Following**
+### Trend Following
 
 
 To learn more about trend following, see Trend Following (coming soon).
 
 
-### **Trend Vault**
+### Trend Vault
 
 
 To deposit in this strategy, go to our vault.
 
 
-### **Tokenized Funds**
+### Tokenized Funds
 
 
 To learn more about tokenized funds, read [Tokenized Funds - The Next Evolution of Fund Management](/tokenized-funds).
