@@ -67,7 +67,7 @@ Portable alpha offers several advantages that make it an attractive strategy for
 - **Capital Efficiency** – The use of derivatives (e.g., futures, swaps) allows investors to **maintain their core market exposure without tying up significant capital**. This freed-up capital can then be deployed into alpha-generating strategies, improving overall portfolio efficiency.
 - **Portfolio Flexibility** – Portable alpha provides a **customizable framework** where investors can select specific market exposures and pair them with alpha sources that align with their risk-return objectives. This adaptability makes it especially well suited for institutional investors seeking tailored investment solutions.
 - **Fee Reduction** — Actively managed long-only funds charge high fees for performance that can be mostly explained by beta exposure. By separating alpha and beta into separate buckets, allocators can avoid paying alpha fees (20%) for beta returns
-- **Tax Benefits** — A strategy that separates alpha from beta can provide significant tax benefits by enabling the deferral of capital gain realizations on the passive market exposure $^2.$
+- **Tax Benefits** — A strategy that separates alpha from beta can provide significant tax benefits by enabling the deferral of capital gain realizations on the passive market exposure [[4](https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta)].
 
 ## **Derivatives & Diversification** {#1cb46a0cd0c3806f8e64c1d089ee7eb2}
 
@@ -210,7 +210,15 @@ Compared to a traditional **100% spot BTC allocation** (40% return), the portabl
 
 ## References {#1cb46a0cd0c380d9a40acc4c664f5b48}
 
-1. 
-2. 
-3. Callin, Sabrina (2008). Portable Alpha: Theory and Practice. Wiley Finance.
-4. [https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta](https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta)
+
+[https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf](https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf)
+
+
+[https://www.man.com/insights/portable-alpha-solving-magnificent-problem](https://www.man.com/insights/portable-alpha-solving-magnificent-problem)
+
+
+[3] Callin, Sabrina (2008). _Portable Alpha: Theory and Practice_. Wiley Finance. 
+
+
+[https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta](https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta)
+
