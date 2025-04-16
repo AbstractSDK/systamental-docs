@@ -13,7 +13,7 @@ keywords: [trend following]
 **TrendBTC seeks to produce higher returns than a buy-and-hold bitcoin strategy (HODL) with the same risk.**
 
 
-# Description
+## Description
 
 
 Trend strategies exploit the persistence of trends in asset prices by going long assets whose prices have been rising and short assets whose prices have been falling.
@@ -26,13 +26,13 @@ Trend following has several advantages that make it an attractive strategy for i
 - _Lower volatility/drawdowns._
 - _Positive returns during bitcoin drawdowns/bear markets._
 
-## Economic Rationale
+### Economic Rationale
 
 
 Price trends can persist for behavioral as well as risk-based reasons. The effectiveness of the momentum effect is well documented in quantitative finance. Behavioral explanations suggest that investors tend to under-react to new information in the short-term and subsequently chase returns leading to a "bandwagon" or herding effect. Alternatively, risk-based explanations argue that the momentum premium can be explained by macroeconomic risks like liquidity and other macro factors. 
 
 
-## Methodology {#aae5935e9e244f0eab543c317de421dc}
+### Methodology {#aae5935e9e244f0eab543c317de421dc}
 
 - **Asset universe**: Bitcoin (BTC)
 - **Factor construction**: this involves transforming price data into trend factor scores that quantify the strength and direction of an asset's price momentum relative to its past history and capture the tendency of assets that have performed well (or poorly) in the past to continue performing well (or poorly) in the future. It is computed using smoothing/filtering techniques by taking the difference between the current price and the price of the asset n periods ago, where n is the lookback window.
@@ -41,19 +41,19 @@ Price trends can persist for behavioral as well as risk-based reasons. The effec
 - **Rebalancing**: daily.
 - **Leverage**: 2x
 
-## Market Regimes
+### Market Regimes
 
 
 Trend strategies work well in trending markets, and poorly in directionless markets. Trending markets can often coincide with periods of high volatility and stress in financial markets, also known as crisis alpha. Hence, they can be good diversifiers during bad times for most assets (see diversification below).
 
 
-# Performance
+## Performance
 
 
 TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance risk-adjusted returns. Historical returns are risk-adjusted to match the asset’s volatility.
 
 
-## Returns {#1d146a0cd0c3808ab7f6e645cbf07ee6}
+### Returns {#1d146a0cd0c3808ab7f6e645cbf07ee6}
 
 
 ![](./trend-btc.1d746a0c-d0c3-80f2-bbb7-cd16d4bd78e5.png)
@@ -65,13 +65,13 @@ TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance 
 ![](./trend-btc.1d746a0c-d0c3-808f-976e-dbeec1fc02d4.png)
 
 
-## Drawdowns {#1d146a0cd0c3809b9278c73cb9a70bac}
+### Drawdowns {#1d146a0cd0c3809b9278c73cb9a70bac}
 
 
 ![](./trend-btc.1d746a0c-d0c3-80df-96d9-c7506aa1e996.png)
 
 
-## Diversification {#1d146a0cd0c380aba38aead7d9643005}
+### Diversification {#1d146a0cd0c380aba38aead7d9643005}
 
 
 ![](./trend-btc.1d746a0c-d0c3-807f-8cb4-f85201cd02ef.png)
@@ -80,28 +80,28 @@ TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance 
 ![](./trend-btc.1d746a0c-d0c3-8065-a608-f8b633f164e2.png)
 
 
-# More Information
+## More Information
 
 
-### Strategist
+### **Strategist**
 
 
 Internal team
 
 
-### Trend Following
+### **Trend Following**
 
 
 To learn more about trend following, see Trend Following (coming soon).
 
 
-### Trend Vault
+### **Trend Vault**
 
 
 To deposit in this strategy, go to our vault.
 
 
-### Tokenized Funds
+### **Tokenized Funds**
 
 
 To learn more about tokenized funds, read [Tokenized Funds - The Next Evolution of Fund Management](/tokenized-funds).
