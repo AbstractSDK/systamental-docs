@@ -95,7 +95,7 @@ Internal team
 To learn more about trend following, see Trend Following (coming soon).
 
 
-### TrendBTC Vault
+### Trend Vault
 
 
 To deposit in this strategy, go to our vault.
