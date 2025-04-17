@@ -50,7 +50,7 @@ Trend strategies work well in trending markets, and poorly in directionless mark
 ## Performance
 
 
-The historical performance shown reflects the average of numerous simulations across a range of trend-following algorithms and parameters, rather than a single backtest. This provides for an unbiased estimate of future performance rather than inflated expectations from overly optimized backtest results. Returns are risk-adjusted to match the asset’s historical volatility.
+The historical performance shown represents the average of many simulations across a range of trend-following algorithms and parameters, rather than a single backtest. It provides an unbiased estimate of future performance, avoiding the inflated expectations that often come from overly optimized backtest results. All returns are risk-adjusted to match the asset’s historical volatility.
 
 
 ### Returns {#1d146a0cd0c3808ab7f6e645cbf07ee6}
@@ -62,7 +62,7 @@ TrendBTC can be added to a passive long BTC exposure to enhance risk-adjusted re
 ![](./trend-btc.1d746a0c-d0c3-80f2-bbb7-cd16d4bd78e5.png)
 
 
-![](./trend-btc.1d746a0c-d0c3-80aa-be7b-ce940ffffad1.png)
+![](./trend-btc.1d846a0c-d0c3-80cc-94dc-ef11dc23056e.png)
 
 
 ![](./trend-btc.1d746a0c-d0c3-808f-976e-dbeec1fc02d4.png)
