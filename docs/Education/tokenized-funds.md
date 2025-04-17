@@ -35,7 +35,7 @@ Whether you manage mutual funds, ETFs, hedge funds, or closed-end funds, tokeni
 A **tokenized vault** is an **on-chain** investment pool that issues digital tokens representing an investor’s share of the underlying assets.
 
 - **Mechanics**: Investors deposit assets (like stablecoins or crypto), and the vault’s smart contract automatically deploys those funds according to a predefined strategy.
-- **Vault Tokens**: These tokens are **ERC-20** assets on Ethereum, meaning they can be transferred or traded globally, 24/7.
+- **Vault Tokens**: These tokens are **ERC-20** assets on Ethereum or other blockchains, meaning they can be transferred or traded globally, 24/7.
 - **Real-Time Transparency**: Anyone can verify the vault’s contents, performance, and transactions on the blockchain—reducing reconciliation errors and increasing trust.
 
 ### Key Standards {#1c346a0cd0c38040864ffa5304fbae79}
@@ -193,7 +193,7 @@ A **tokenized vault** is an **on-chain** investment pool that issues digital
 
 # References {#7eafa5b9dc5c4eb38e22e3e61f176357}
 
-- Opening the Vaults of Ethereum - a closer look at ERC-4626 and its implications under MiCA: [https://blog.bcas.io/ethereum-vaults-erc4626-under-mica](https://blog.bcas.io/ethereum-vaults-erc4626-under-mica#:~:text=%2A%20The%20,minting%2C%20depositing%2C%20withdrawing%2C%20or%20redeeming)
-- ERC-4626 Tokenized Vault Standard: [ethereum.org/en/developers/docs/standards/tokens/erc-4626](http://ethereum.org/en/developers/docs/standards/tokens/erc-4626)
-- ERC-7540 Asynchronous Vault Standard: [https://eips.ethereum.org/EIPS/eip-7540](https://eips.ethereum.org/EIPS/eip-7540)
-- Tokenized Funds, The Third Revolution in Asset Management Decoded: [https://web-assets.bcg.com/21/c5/fc3b58b146809d89e5b6b8870d5d/tokenized-funds-the-third-revolution-in-asset-management-decoded.pdf](https://web-assets.bcg.com/21/c5/fc3b58b146809d89e5b6b8870d5d/tokenized-funds-the-third-revolution-in-asset-management-decoded.pdf)
+- [Opening the Vaults of Ethereum - a closer look at ERC-4626 and its implications under MiCA](https://blog.bcas.io/ethereum-vaults-erc4626-under-mica)
+- [ERC-4626 Tokenized Vault Standard](http://ethereum.org/en/developers/docs/standards/tokens/erc-4626)
+- [ERC-7540 Asynchronous Vault Standard](https://eips.ethereum.org/EIPS/eip-7540)
+- [Tokenized Funds, The Third Revolution in Asset Management Decoded](https://web-assets.bcg.com/21/c5/fc3b58b146809d89e5b6b8870d5d/tokenized-funds-the-third-revolution-in-asset-management-decoded.pdf)
