@@ -1,5 +1,5 @@
 ---
-title: TrendBTC One-Pager
+title: TrendBTC
 sidebar_position: 0
 slug: /trend-btc
 keywords: [trend following]
@@ -16,7 +16,7 @@ keywords: [trend following]
 ## Description
 
 
-Trend strategies exploit the persistence of trends in asset prices by going long assets whose prices have been rising and short assets whose prices have been falling.
+Trend following strategies exploit the persistence of trends in asset prices by going long assets whose prices have been rising and short assets whose prices have been falling.
 
 
 Trend following has several advantages that make it an attractive strategy for investors:
@@ -24,7 +24,7 @@ Trend following has several advantages that make it an attractive strategy for i
 - _Positive and high risk-adjusted returns._
 - _Low correlations to long market exposure._
 - _Lower volatility/drawdowns._
-- _Positive returns during bitcoin drawdowns/bear markets._
+- _Positive returns during crypto bear markets (winter)._
 
 ### Economic Rationale
 
@@ -35,11 +35,11 @@ Price trends can persist for behavioral as well as risk-based reasons. The effec
 ### Methodology {#aae5935e9e244f0eab543c317de421dc}
 
 - **Asset universe**: Bitcoin (BTC)
-- **Factor construction**: this involves transforming price data into trend factor scores that quantify the strength and direction of an asset's price momentum relative to its past history and capture the tendency of assets that have performed well (or poorly) in the past to continue performing well (or poorly) in the future. It is computed using smoothing/filtering techniques by taking the difference between the current price and the price of the asset n periods ago, where n is the lookback window.
-- **Signal generation**: once factor scores are computed, they are converted into signals (forecasts) with values between -1 and 1 using some form of mathematical transformation (learner or function).
+- **Factor construction**: this involves transforming price data into trend factor scores that quantify the strength and direction of an asset's price momentum relative to its past history. The trend factor captures the tendency of assets that have performed well (or poorly) in the past to continue performing well (or poorly) in the future. It is computed using smoothing/filtering techniques by taking the difference between the current price and the price of the asset n periods ago, where n is the lookback window.
+- **Signal generation**: once trend factor scores are computed, they are converted into signals (forecasts) with values between -1 and 1 using a mathematical transformation (learner and/or function).
 - **Sizing**: positions are sized in order to achieve a desired volatility target. A volatility scaling factor is computed as the volatility target divided by the realized volatility over the past 3 months. The signal is adjusted by the volatility scaling factor.
 - **Rebalancing**: daily.
-- **Leverage**: 2x
+- **Leverage**: customizable. Leverage can be increased to enhance returns, or decreased to reduce risk in-line with investor risk preferences.
 
 ### Market Regimes
 
@@ -50,10 +50,13 @@ Trend strategies work well in trending markets, and poorly in directionless mark
 ## Performance
 
 
-TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance risk-adjusted returns. Historical returns are risk-adjusted to match the asset’s volatility.
+The historical performance shown reflects the average of numerous simulations across a range of trend-following algorithms and parameters, rather than a single backtest. This provides for an unbiased estimate of future performance rather than inflated expectations from overly optimized backtest results. Returns are risk-adjusted to match the asset’s historical volatility.
 
 
 ### Returns {#1d146a0cd0c3808ab7f6e645cbf07ee6}
+
+
+TrendBTC can be added to a passive long BTC exposure to enhance risk-adjusted returns. 
 
 
 ![](./trend-btc.1d746a0c-d0c3-80f2-bbb7-cd16d4bd78e5.png)
@@ -68,10 +71,16 @@ TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance 
 ### Drawdowns {#1d146a0cd0c3809b9278c73cb9a70bac}
 
 
+TrendBTC can reduce drawdowns by up to half of those of BTC.
+
+
 ![](./trend-btc.1d746a0c-d0c3-80df-96d9-c7506aa1e996.png)
 
 
 ### Diversification {#1d146a0cd0c380aba38aead7d9643005}
+
+
+TrendBTC has very low correlation to BTC and broad crypto asset exposure, serving as a good portfolio diversifier especially during bear markets.
 
 
 ![](./trend-btc.1d746a0c-d0c3-807f-8cb4-f85201cd02ef.png)
@@ -83,25 +92,25 @@ TrendAssets can be added to a buy-and-hold (HODL) asset or portfolio to enhance 
 ## More Information
 
 
-### **Strategist**
+### Strategist
 
 
 Internal team
 
 
-### **Trend Following**
+### Trend Following
 
 
 To learn more about trend following, see Trend Following (coming soon).
 
 
-### **Trend Vault**
+### Trend Vault
 
 
 To deposit in this strategy, go to our vault.
 
 
-### **Tokenized Funds**
+### Tokenized Funds
 
 
 To learn more about tokenized funds, read [Tokenized Funds - The Next Evolution of Fund Management](/tokenized-funds).

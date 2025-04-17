@@ -1,6 +1,6 @@
 ---
 title: Digital Asset Management
-sidebar_position: 2
+sidebar_position: 1
 slug: /digital-asset-management
 ---
 
