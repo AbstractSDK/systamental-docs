@@ -53,7 +53,7 @@ Trend strategies work well in trending markets, and poorly in directionless mark
 The historical performance shown represents the average of many simulations across a range of trend-following algorithms and parameters, rather than a single backtest. It provides an unbiased estimate of future performance, avoiding the inflated expectations that often come from overly optimized backtest results. All returns are risk-adjusted to match the asset’s historical volatility.
 
 
-## Returns {#1d746a0cd0c3807384dadb782665464b}
+### Returns {#1d746a0cd0c3807384dadb782665464b}
 
 
 TrendETH can be added to passive long ETH exposure to enhance risk-adjusted returns. 
@@ -68,7 +68,7 @@ TrendETH can be added to passive long ETH exposure to enhance risk-adjusted retu
 ![](./trend-eth.1d846a0c-d0c3-8042-bb76-d4aa22f4220e.png)
 
 
-## Drawdowns {#1d746a0cd0c380c4913cd447d519ecc7}
+### Drawdowns {#1d746a0cd0c380c4913cd447d519ecc7}
 
 
 TrendETH can help reduce drawdowns especially during bear markets.
@@ -77,7 +77,7 @@ TrendETH can help reduce drawdowns especially during bear markets.
 ![](./trend-eth.1d846a0c-d0c3-80c7-bb7b-c386de47cca6.png)
 
 
-## Diversification {#1d746a0cd0c380269cd3dcab1c076a72}
+### Diversification {#1d746a0cd0c380269cd3dcab1c076a72}
 
 
 TrendETH has very low correlation to ETH and broad crypto asset exposure, serving as a good portfolio diversifier especially during bear markets.

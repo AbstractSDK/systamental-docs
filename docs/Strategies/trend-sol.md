@@ -53,7 +53,7 @@ Trend strategies work well in trending markets, and poorly in directionless mark
 The historical performance shown represents the average of many simulations across a range of trend-following algorithms and parameters, rather than a single backtest. It provides an unbiased estimate of future performance, avoiding the inflated expectations that often come from overly optimized backtest results. All returns are risk-adjusted to match the asset’s historical volatility.
 
 
-## Returns {#7bec643efc474cb0aec192e1af6b8efd}
+### Returns {#7bec643efc474cb0aec192e1af6b8efd}
 
 
 TrendSOL can be added to passive long SOL exposure to enhance risk-adjusted returns. 
@@ -68,7 +68,7 @@ TrendSOL can be added to passive long SOL exposure to enhance risk-adjusted retu
 ![](./trend-sol.1d846a0c-d0c3-8082-8704-e3e48ee84730.png)
 
 
-## Drawdowns {#819a436290c04617b9def2361a532c61}
+### Drawdowns {#819a436290c04617b9def2361a532c61}
 
 
 TrendSOL can reduce drawdowns by up to 20% relative to SOL.
@@ -77,7 +77,7 @@ TrendSOL can reduce drawdowns by up to 20% relative to SOL.
 ![](./trend-sol.1d846a0c-d0c3-8061-8dac-d99727aa141b.png)
 
 
-## Diversification {#eac0ab4ec937476bbc55d45767d2fdc6}
+### Diversification {#eac0ab4ec937476bbc55d45767d2fdc6}
 
 
 TrendSOL has very low correlation to SOL and broader crypto asset exposure, serving as a good portfolio diversifier especially during bear markets.

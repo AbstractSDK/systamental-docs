@@ -39,13 +39,13 @@ The core idea is simple yet powerful: maintain your desired market exposure thro
 - **Beta** refers to market returns that come from passive exposure to asset classes such as equities, government bonds, commodities, or real estate. These returns compensate investors for bearing systematic market risk.
 - **Alpha**, by contrast, represents the **excess return** earned through active management. This could include **systematic strategies** (e.g., value, trend, carry) or **idiosyncratic alpha** derived from manager skill, arbitrage, or market inefficiencies.
 
-By separating alpha and beta, investors can **enhance risk-adjusted returns** without altering their strategic asset allocation. This strategy allows institutions to **"transport" alpha across different market exposures**, hence the term _portable alpha_ [[1]](https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf)[[2]](https://www.man.com/insights/portable-alpha-solving-magnificent-problem). 
+By separating alpha and beta, investors can **enhance risk-adjusted returns** without altering their strategic asset allocation. This strategy allows institutions to **"transport" alpha across different market exposures**, hence the term _portable alpha_ [[1](https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf)][[2](https://www.man.com/insights/portable-alpha-solving-magnificent-problem)].
 
 
 ### A Brief History of Portable Alpha {#448a5235dc934c3bac9cdadbae250873}
 
 
-The concept of portable alpha isn’t new. One of the earliest examples of the approach was PIMCO's **StocksPLUS** strategy, introduced in the mid-1980s. StocksPLUS used equity futures to maintain long exposure to the stock market, while simultaneously investing in actively managed fixed income portfolios to generate alpha [[3]](https://www.amazon.com/Portable-Alpha-Theory-Practice-Investors/dp/0470118083).
+The concept of portable alpha isn’t new. One of the earliest examples of the approach was PIMCO's **StocksPLUS** strategy, introduced in the mid-1980s. StocksPLUS used equity futures to maintain long exposure to the stock market, while simultaneously investing in actively managed fixed income portfolios to generate alpha [[3](https://www.amazon.com/Portable-Alpha-Theory-Practice-Investors/dp/0470118083)].
 
 
 In the early 2000s, **pension funds and endowments** adopted portable alpha to diversify return sources and enhance performance. However, the **2008 global financial crisis** exposed some critical flaws. Many alpha strategies that were believed to be uncorrelated with beta became correlated during periods of systemic stress. Moreover, the embedded leverage in portable alpha structures amplified losses, leading to a reassessment of risk controls and diversification methods.
