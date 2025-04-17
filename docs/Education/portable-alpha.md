@@ -211,14 +211,14 @@ Compared to a traditional **100% spot BTC allocation** (40% return), the portabl
 ## References {#1cb46a0cd0c380d9a40acc4c664f5b48}
 
 
-[https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf](https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf)
+[1] Edward Kung and Larry Pohlman (2004). _Portable Alpha - Philosophy, process, and performance_, Journal of Portfolio Management, Volume 30, number 3. Spring. 
 
 
-[https://www.man.com/insights/portable-alpha-solving-magnificent-problem](https://www.man.com/insights/portable-alpha-solving-magnificent-problem)
+[2] Graham Robertson, Edward Cole, Eva Sanchez Martin, Jonathan Smith, Harry Moore and Otto van Hemert (2025). _Portable Alpha: Solving the Magnificent Problem_, Man AHL. Jan. 
 
 
 [3] Callin, Sabrina (2008). _Portable Alpha: Theory and Practice_. Wiley Finance. 
 
 
-[https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta](https://www.aqr.com/Insights/Research/Working-Paper/The-Tax-Benefits-of-Separating-Alpha-from-Beta)
+[4] Joseph Liberman, Clemens Sialm, Nathan Sosner and Lixin Wang (2020). _The Tax Benefits of Separating Alpha from Beta_, Financial Analysts Journal, Volume 76 Number 1. Jan 30. 
 
