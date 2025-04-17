@@ -107,7 +107,7 @@ Once computed, these factor scores are converted into **signals (forecasts)** th
 Although many factors are well-known, **implementation details can significantly impact performance**. Factors can be constructed with different lookback windows, rebalancing frequencies, signal transformations (continuous vs. discrete), and weighting schemes. Additionally, they can be applied in two primary ways:
 
 - **Directional strategies (time-series)** – Predicts absolute returns based on historical factor values (e.g. trend-following strategies).
-- **Market-neutral strategies (cross-sectional)** – Ranks assets by factor values, then constructs long/short portfolios to capture relative return differences (e.g. carry/yiel strategies).
+- **Market-neutral strategies (cross-sectional)** – Ranks assets by factor values, then constructs long/short portfolios to capture relative return differences (e.g. carry/yield strategies).
 
 The choice between directional and market-neutral implementation often depends on asset class characteristics and factor predictability. Some factors, such as carry/yield, tend to perform better in market-neutral implementations, while others, such as trend/momentum, are more effective in directional strategies [[6]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2695101). Additionally, implementing factor strategies as long-short portfolios—rather than long-only (smart beta)—can significantly enhance risk-adjusted returns and diversification benefits [[7]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3557879).
 
@@ -160,32 +160,32 @@ By systematically adapting to changing market conditions, factor assets can impr
 ## References {#5644c433479a420187d101d3dc1c8526}
 
 
-[https://www.sciencedirect.com/science/article/abs/pii/0022053176900466](https://www.sciencedirect.com/science/article/abs/pii/0022053176900466)
+[1] Ross, S. (1976). _The Arbitrage Theory of Capital Asset Pricing_. Journal of Economic Theory, 13(3), pp. 341–360. 
 
 
-[https://www.amazon.com/-/es/Andrew-Ang/dp/0199959323](https://www.amazon.com/-/es/Andrew-Ang/dp/0199959323)
+[2] Ang, Andrew (2014). _Asset Management: A Systematic Approach to Factor Investing_, 1st Edition. Oxford University Press.
 
 
-[https://www.tandfonline.com/doi/abs/10.2469/faj.v51.n3.1904](https://www.tandfonline.com/doi/abs/10.2469/faj.v51.n3.1904)
+[3] Connor, Gregory (1995). _The Three Types of Factor Models: A Comparison of Their Explanatory Power_. Financial Analysts Journal, Volume 51, Issue 3, p. 42–46. 
 
 
-[https://www.pm-research.com/content/iijpormgmt/43/5/38](https://www.pm-research.com/content/iijpormgmt/43/5/38)
+[4] Bass, Robert; Gladstone, Scott; Ang, Andrew (2017). _Total Portfolio Factor, Not Just Asset, Allocation_. The Journal of Portfolio Management, Special QES, Issue 2017, 43 (5) 38–53. 
 
 
-[https://www.bauer.uh.edu/rsusmel/phd/Fama-French_JFE93.pdf](https://www.bauer.uh.edu/rsusmel/phd/Fama-French_JFE93.pdf)
+[5] Fama, E. F.; French, K. R. (1993). _Common Risk Factors in the Returns on Stocks and Bonds_. Journal of Financial Economics. 33: 3–56. 
 
 
-[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2695101](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2695101)
+[6] Baz, Jamil; Granger, Nicolas, Harver, Campbell R.; Le Roux, Nicolas, Rattray, Sandy (2016). _Dissecting Investment Strategies in the Cross Section and Time Series_. SSRN. 
 
 
-[https://arxiv.org/pdf/2003.10419](https://arxiv.org/pdf/2003.10419)
+[7] Florent Benaych-Georges; Jean-Philippe Bouchaud; Stefano Ciliberti (2021). _Equity Factors: To Short Or Not To Short, That Is The Question_. ARXVI. 
 
 
-[https://www.nber.org/system/files/working_papers/w25481/w25481.pdf](https://www.nber.org/system/files/working_papers/w25481/w25481.pdf)
+[8] Feng, Guanhao; Giglio, Stefano; Xiu, Dacheng (2019). _Taming the Factor Zoo: A Test of New Factors_. Working Paper 25481, NBER. Jan. 
 
 
-[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2528780](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2528780)
+[9] Harvey, Campbell R.; Liu, Yan (2021). _Lucky Factors_. Journal of Financial Economics, Volume 141, Issue 2, Pages 413–435, August. 
 
 
-[https://www.amazon.com/Your-Complete-Guide-Factor-Based-Investing/dp/0692783652](https://www.amazon.com/Your-Complete-Guide-Factor-Based-Investing/dp/0692783652)
+[10] Andrew L. Berkin, Larry E. Swedroe (2016). _Your Complete Guide to Factor-Based Investing: The Way Smart Money Invests Today_. Buckingham. Oct 7. 
 

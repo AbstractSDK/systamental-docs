@@ -112,32 +112,32 @@ This illustrative example shows how performance can be improved without any skil
 ## References {#7c97f22fd2fb4b74aafbaf0d4e72acaf}
 
 
-[https://youtu.be/Nu4lHaSh7D4?si=Y1_prPA4q4cpUybS](https://youtu.be/Nu4lHaSh7D4?si=Y1_prPA4q4cpUybS)
+[1] Investopedia, _Ray Dalio Breaks Down His "Holy Grail"_, YouTube
 
 
-[https://www.bridgewater.com/_document/the-all-weather-story?id=00000171-8623-d7de-affd-feaf4ee20000](https://www.bridgewater.com/_document/the-all-weather-story?id=00000171-8623-d7de-affd-feaf4ee20000)
+[2] Bridgewater (2012). _The All Weather Story - How Bridgewater Associates created the All Weather investment strategy, the foundation of the ‘risk parity’ movement_, Bridgewater Associates, LP. Jan. 
 
 
-[https://www.aqr.com/Insights/Research/White-Papers/Time-to-Diversify-but-into-what](https://www.aqr.com/Insights/Research/White-Papers/Time-to-Diversify-but-into-what)
+[3] AQR (2021). _Time to Diversify – But into What? The case for diversifying out of equities, and the role of liquid alternatives_, AQR. Q4. 
 
 
-[https://www.blackrock.com/americas-offshore/en/education/portfolio-construction/diversifying-investments](https://www.blackrock.com/americas-offshore/en/education/portfolio-construction/diversifying-investments)
+[4] Blackrock. _Diversifying Investments_, Blakcrock, Portfolio Construction, Module 5.
 
 
 [5] Sabrina Callin (2008). _Portable Alpha Theory and Practice: What Investors Really Need to Know_, Willey. April 4.
 
 
-[https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf](https://www.panagora.com/wp-content/uploads/JPM-Portable-Alpha.pdf)
+[6] Edward Kung and Larry Pohlman (2004). _Portable Alpha - Philosophy, process, and performance_, Journal of Portfolio Management, Volume 30, number 3. Spring. 
 
 
-[https://www.man.com/insights/portable-alpha-solving-magnificent-problem](https://www.man.com/insights/portable-alpha-solving-magnificent-problem)
+[7] Graham Robertson, Edward Cole, Eva Sanchez Martin, Jonathan Smith, Harry Moore and Otto van Hemert (2025). _Portable Alpha: Solving the Magnificent Problem_, Man AHL. Jan. 
 
 
-[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178273](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178273)
+[8] Joseph Liberman, Clemens Sialm, Nathan Sosner and Lixin Wang (2020). _The Tax Benefits of Separating Alpha from Beta_, Financial Analysts Journal, Volume 76 Number 1. Jan 30. 
 
 
 [9] Miquel Noguer Alonso, Julian Antolin Camarena and Alberto Bueno Guerrero (2025). _Quantitative Portfolio Optimization: Advanced Techniques and Applications_, Wiley Finance, 1st Edition. Jan 25.
 
 
-[https://www.blackrock.com/us/individual/literature/whitepaper/bitcoin-a-unique-diversifier.pdf](https://www.blackrock.com/us/individual/literature/whitepaper/bitcoin-a-unique-diversifier.pdf)
+[10] Samara Cohen, Robert Mitchnick, Russel Brownback (2024). _Bitcoin: A Unique Diversifier_. Blackrock. 
 
