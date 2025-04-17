@@ -35,7 +35,7 @@ This documentation is organized to serve different audiences:
 
 - **Investors & Allocators**: If you're looking to invest or allocate assets, start with our [Investor Guide](./category/investor-guide)
 - **Researchers**: For deep dives into investment theory, check our [Education & Research Hub](./Education)
-- **Developers & Integrators**: For technical details, visit our [Technical Documentation](./category/technical-documentation)
+- **Developers & Integrators**: For technical details, visit our Technical Documentation (coming soon)
 - **Community Members**: To get involved, see our [Community](./community)
 
 ## Quick Links {#1c946a0cd0c380028cb8ef458c363ad3}
