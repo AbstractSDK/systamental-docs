@@ -1,16 +1,16 @@
 ---
-title: TrendBTC
-sidebar_position: 0
-slug: /trend-btc
+title: TrendSOL
+sidebar_position: 2
+slug: /trend-sol
 keywords: [trend following]
 ---
 
 
 
-# TrendBTC {#1d146a0cd0c38035a6a5cccb895e8d26}
+# TrendSOL {#f8dcd087b60345ebb4e4262f4cf6988b}
 
 
-**TrendBTC seeks to produce higher returns than a buy-and-hold BTC strategy (HODL) with the same risk.**
+**TrendSOL seeks to produce higher returns than a buy-and-hold SOL strategy (HODL) with the same risk.**
 
 
 ## Description
@@ -32,9 +32,9 @@ Trend following has several advantages that make it an attractive strategy for i
 Price trends can persist for behavioral as well as risk-based reasons. The effectiveness of the momentum effect is well documented in quantitative finance. Behavioral explanations suggest that investors tend to under-react to new information in the short-term and subsequently chase returns leading to a "bandwagon" or herding effect. Alternatively, risk-based explanations argue that the momentum premium can be explained by macroeconomic risks like liquidity and other macro factors. 
 
 
-### Methodology {#aae5935e9e244f0eab543c317de421dc}
+### Methodology {#1d846a0cd0c380aeaf52efca0755794a}
 
-- **Asset universe**: Bitcoin (BTC)
+- **Asset universe**: Solana (SOL)
 - **Factor construction**: this involves transforming price data into trend factor scores that quantify the strength and direction of an asset's price momentum relative to its past history. The trend factor captures the tendency of assets that have performed well (or poorly) in the past to continue performing well (or poorly) in the future. It is computed using smoothing/filtering techniques by taking the difference between the current price and the price of the asset n periods ago, where n is the lookback window.
 - **Signal generation**: once trend factor scores are computed, they are converted into signals (forecasts) with values between -1 and 1 using a mathematical transformation (learner and/or function).
 - **Sizing**: positions are sized in order to achieve a desired volatility target. A volatility scaling factor is computed as the volatility target divided by the realized volatility over the past 3 months. The signal is adjusted by the volatility scaling factor.
@@ -53,40 +53,40 @@ Trend strategies work well in trending markets, and poorly in directionless mark
 The historical performance shown represents the average of many simulations across a range of trend-following algorithms and parameters, rather than a single backtest. It provides an unbiased estimate of future performance, avoiding the inflated expectations that often come from overly optimized backtest results. All returns are risk-adjusted to match the asset’s historical volatility.
 
 
-### Returns {#1d146a0cd0c3808ab7f6e645cbf07ee6}
+## Returns {#7bec643efc474cb0aec192e1af6b8efd}
 
 
-TrendBTC can be added to passive long BTC exposure to enhance risk-adjusted returns. 
+TrendSOL can be added to passive long SOL exposure to enhance risk-adjusted returns. 
 
 
-![](./trend-btc.1d746a0c-d0c3-80f2-bbb7-cd16d4bd78e5.png)
+![](./trend-sol.1d846a0c-d0c3-80d2-a801-dcae7a894f22.png)
 
 
-![](./trend-btc.1d846a0c-d0c3-80cc-94dc-ef11dc23056e.png)
+![](./trend-sol.1d846a0c-d0c3-80d8-81a3-e4aaf832ec9c.png)
 
 
-![](./trend-btc.1d746a0c-d0c3-808f-976e-dbeec1fc02d4.png)
+![](./trend-sol.1d846a0c-d0c3-8082-8704-e3e48ee84730.png)
 
 
-### Drawdowns {#1d146a0cd0c3809b9278c73cb9a70bac}
+## Drawdowns {#819a436290c04617b9def2361a532c61}
 
 
-TrendBTC can reduce drawdowns by up to half of those of BTC.
+TrendSOL can reduce drawdowns by up to 20% relative to SOL.
 
 
-![](./trend-btc.1d746a0c-d0c3-80df-96d9-c7506aa1e996.png)
+![](./trend-sol.1d846a0c-d0c3-8061-8dac-d99727aa141b.png)
 
 
-### Diversification {#1d146a0cd0c380aba38aead7d9643005}
+## Diversification {#eac0ab4ec937476bbc55d45767d2fdc6}
 
 
-TrendBTC has very low correlation to BTC and broader crypto asset exposure, serving as a good portfolio diversifier especially during bear markets.
+TrendSOL has very low correlation to SOL and broader crypto asset exposure, serving as a good portfolio diversifier especially during bear markets.
 
 
-![](./trend-btc.1d746a0c-d0c3-807f-8cb4-f85201cd02ef.png)
+![](./trend-sol.1d846a0c-d0c3-80c2-91af-e3291891f4e0.png)
 
 
-![](./trend-btc.1d746a0c-d0c3-8065-a608-f8b633f164e2.png)
+![](./trend-sol.1d846a0c-d0c3-80d6-a2f1-e96d026e53c2.png)
 
 
 ## More Information
