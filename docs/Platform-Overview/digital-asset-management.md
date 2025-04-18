@@ -9,7 +9,7 @@ slug: /digital-asset-management
 # Digital Asset Management {#1c946a0cd0c380e799b5d23039a11aca}
 
 
-## The Future of Asset Management is On-Chain {#1c946a0cd0c380d99ad1faa08c357555}
+## The Future of Asset Management is Onchain {#1c946a0cd0c380d99ad1faa08c357555}
 
 
 The global financial system is undergoing a profound transformation. Trust in public and private institutions is at historic lows, driving demand for decentralized, trustless, and permissionless financial technology. Blockchain is shifting power away from centralized entities and restoring financial sovereignty to individuals.

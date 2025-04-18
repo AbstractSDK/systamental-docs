@@ -148,13 +148,13 @@ By following a sound factor design process—rigorous factor construction and im
 Factor Assets are investment products built using directional (time-series) factor signals on individual assets. Unlike traditional assets, which maintain fixed weight exposure (always 100% long), a factor asset employs a directional (time-series) factor signal, dynamically adjusting its exposure between -1 and 1 based on the signal. As a result, it can scale it's exposure up (positive) or down (negative) depending on market conditions. Any factor can be used to compute the signal (trend, carry, value, volatility, etc) as long as it can be implemented in a directional strategy, rather than a cross-sectional one.
 
 
-![](./factor-investing.1d346a0c-d0c3-807d-a8a7-edd92a9a2e46.png)
-
-
-![](./factor-investing.1d346a0c-d0c3-80b1-a56e-cc3a4c637f7d.png)
-
-
 By systematically adapting to changing market conditions, factor assets can improve an asset's performance, reduce risk, and deliver smoother, more robust returns over time.
+
+
+![](./factor-investing.1d946a0c-d0c3-80c5-86e8-c2abe160a33c.png)
+
+
+![](./factor-investing.1d946a0c-d0c3-8079-b9e9-dfa882002a3b.png)
 
 
 ## References {#5644c433479a420187d101d3dc1c8526}

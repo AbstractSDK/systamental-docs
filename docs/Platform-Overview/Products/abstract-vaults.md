@@ -1,7 +1,7 @@
 ---
-title: Vaults Overview
+title: Abstract Vaults
 sidebar_position: 0
-slug: /vaults-overview
+slug: /abstract-vaults
 keywords: [tokenized vaults, abstract vaults]
 ---
 
