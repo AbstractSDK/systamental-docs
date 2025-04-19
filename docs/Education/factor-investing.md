@@ -50,7 +50,7 @@ Just as a meal can be broken down into its macro and micronutrients, **any portf
 There are three main types of factors [[3](https://www.tandfonline.com/doi/abs/10.2469/faj.v51.n3.1904)]:
 
 - **Macro Factors**: These **capture broad risks across asset classes** and are the key drivers of asset class returns, much like **macronutrients (carbohydrates, proteins, and fats)** provide the primary energy and building blocks for the body. The most common macro factors include **economic growth, inflation, real interest rates, credit, emerging markets and commodities**. Empirical studies suggest that just **three macro factors—economic growth, inflation, and real interest rates—can explain up to 85% of the variance in asset class returns**, while three additional factors—**credit, emerging markets, and commodities—account for another 10%**. These macro factors are often represented by broad, investable market or asset class indexes [[4](https://www.pm-research.com/content/iijpormgmt/43/5/38)].
-- **Style Factors (Fundamental Factors)**: These **explain risk and return within asset classes**, much like **micronutrients (vitamins, minerals, and antioxidants)** optimize bodily functions independently of calorie intake. Style factors provide alternative sources of return that are often **uncorrelated with macro conditions**, enhancing portfolio resilience. The most common style factors include **trend/momentum, value, carry/yield, quality, size, and volatility**. Unlike macro factors, style factors primarily **explain cross-sectional differences in returns among assets within the same asset class**.
+- **Style Factors (Fundamental Factors)**: These **explain risk and return within asset classes**, much like **micronutrients (vitamins, minerals, and antioxidants)** optimize bodily functions independently of calorie intake. Style factors provide alternative sources of return that are often **uncorrelated with macro factors** enhancing portfolio resilience. The most common style factors include **trend/momentum, value, carry/yield, quality, size, and low risk**. Unlike macro factors, style factors primarily **explain cross-sectional differences in returns among assets within the same asset class**.
 - **Statistical Factors (Principal Components)**: These are extracted statistically through **principal component analysis (PCA)** and decompose a universe of assets into **uncorrelated drivers of variance (risk)**. Statistical factors are like **hidden nutrients (e.g., polyphenols and gut microbiome benefits)**—they significantly influence portfolio performance, even though they don’t fit neatly into traditional categories. In interest rate markets, for example, the first three principal components typically correspond to **level (PC1), slope (PC2), and curvature (PC3) of the yield curve**, representing the dominant movements in bond yields.
 
 The table below summarizes some of the key characteristics of each type of factor.
@@ -89,7 +89,7 @@ Factor investing has been around for decades. Its effectiveness is supported by 
 Just as whey protein is extracted from milk through a structured process, a factor strategy is constructed from a universe of assets through an algorithmic process. While factor design involves numerous choices and implementation details, the process can be broadly broken down into two key steps: **factor construction** and **factor evaluation**.
 
 
-### Factor Construction: Financial Feature Engineering {#ec258b41a1c04639a3c6f2ffedb87b63}
+### Factor Construction {#ec258b41a1c04639a3c6f2ffedb87b63}
 
 
 Factor construction—akin to **financial feature engineering**—involves **transforming raw data into factor scores** that quantify an asset’s attractiveness. These scores are calculated for each asset and time period in the tradable universe and can **provide predictive information about forward returns**, either with respect to the asset itself (time-series) or relative to other assets in the universe (cross-sectional).
@@ -97,7 +97,7 @@ Factor construction—akin to **financial feature engineering**—involves **tra
 
 Factors can be derived from various data sources, including:
 
-- **Market data** (e.g., price trends for momentum factors)
+- **Market data** (e.g., price trends for trend/momentum factors)
 - **Fundamental data** (e.g., price-to-earnings ratios for value factors, or on-chain valuation metrics for crypto assets)
 - **Alternative data** (e.g., sentiment analysis from social media or news)
 
@@ -148,13 +148,19 @@ By following a sound factor design process—rigorous factor construction and im
 Factor Assets are investment products built using directional (time-series) factor signals on individual assets. Unlike traditional assets, which maintain fixed weight exposure (always 100% long), a factor asset employs a directional (time-series) factor signal, dynamically adjusting its exposure between -1 and 1 based on the signal. As a result, it can scale it's exposure up (positive) or down (negative) depending on market conditions. Any factor can be used to compute the signal (trend, carry, value, volatility, etc) as long as it can be implemented in a directional strategy, rather than a cross-sectional one.
 
 
-![](./factor-investing.1d346a0c-d0c3-807d-a8a7-edd92a9a2e46.png)
-
-
-![](./factor-investing.1d346a0c-d0c3-80b1-a56e-cc3a4c637f7d.png)
-
-
 By systematically adapting to changing market conditions, factor assets can improve an asset's performance, reduce risk, and deliver smoother, more robust returns over time.
+
+
+![](./factor-investing.1d946a0c-d0c3-80c5-86e8-c2abe160a33c.png)
+
+
+![](./factor-investing.1d946a0c-d0c3-8079-b9e9-dfa882002a3b.png)
+
+
+To explore our FactorAsset vaults, as well as any of our other funds, see available funds:
+
+
+**[Problem Internal Link]**
 
 
 ## References {#5644c433479a420187d101d3dc1c8526}

@@ -1,6 +1,6 @@
 ---
 title: TrendBTC
-sidebar_position: 0
+sidebar_position: 1
 slug: /trend-btc
 keywords: [trend following]
 ---
