@@ -1,6 +1,6 @@
 ---
 title: TrendETH
-sidebar_position: 1
+sidebar_position: 2
 slug: /trend-eth
 keywords: [trend following]
 ---
